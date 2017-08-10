@@ -1,0 +1,6 @@
+framework module Pods_Coffee_Port_BurgersUITests {
+  umbrella header "Pods-Coffee Port BurgersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

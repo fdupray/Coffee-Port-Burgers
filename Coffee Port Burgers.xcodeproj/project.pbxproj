@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF673A6F7AC4BAF5EC88974 /* Pods_Coffee_Port_BurgersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515B5BE11EF70D9DD4765594 /* Pods_Coffee_Port_BurgersUITests.framework */; };
+		3D017B604B1F9BA34DB08178 /* Pods_Coffee_Port_Burgers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2387AF9E390DB71660BD19 /* Pods_Coffee_Port_Burgers.framework */; };
+		A5A9F8761F3B47390022E2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F8751F3B47390022E2A7 /* AppDelegate.swift */; };
+		A5A9F8781F3B473A0022E2A7 /* BurgerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F8771F3B473A0022E2A7 /* BurgerTableViewController.swift */; };
+		A5A9F87B1F3B473B0022E2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A9F8791F3B473B0022E2A7 /* Main.storyboard */; };
+		A5A9F87D1F3B473C0022E2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A9F87C1F3B473C0022E2A7 /* Assets.xcassets */; };
+		A5A9F8801F3B473C0022E2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A9F87E1F3B473C0022E2A7 /* LaunchScreen.storyboard */; };
+		A5A9F88B1F3B473E0022E2A7 /* Coffee_Port_BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F88A1F3B473E0022E2A7 /* Coffee_Port_BurgersTests.swift */; };
+		A5A9F8961F3B473F0022E2A7 /* Coffee_Port_BurgersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F8951F3B473F0022E2A7 /* Coffee_Port_BurgersUITests.swift */; };
+		A5A9F8A41F3B4D790022E2A7 /* BurgerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F8A31F3B4D790022E2A7 /* BurgerTableViewCell.swift */; };
+		A5A9F8A61F3B53E80022E2A7 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F8A51F3B53E80022E2A7 /* Burger.swift */; };
+		ABF59348A4113E65F18A948A /* Pods_Coffee_Port_BurgersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64453028FA125DAA84C7E6B /* Pods_Coffee_Port_BurgersTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A9F8871F3B473E0022E2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A9F86A1F3B47380022E2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A9F8711F3B47380022E2A7;
+			remoteInfo = "Coffee Port Burgers";
+		};
+		A5A9F8921F3B473E0022E2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A9F86A1F3B47380022E2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A9F8711F3B47380022E2A7;
+			remoteInfo = "Coffee Port Burgers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AABF0110DEC3441F2151D01 /* Pods-Coffee Port Burgers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port Burgers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port Burgers/Pods-Coffee Port Burgers.debug.xcconfig"; sourceTree = "<group>"; };
+		0D2387AF9E390DB71660BD19 /* Pods_Coffee_Port_Burgers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_Port_Burgers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515B5BE11EF70D9DD4765594 /* Pods_Coffee_Port_BurgersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_Port_BurgersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C9F4D1C7FD9288EFFB1A07 /* Pods-Coffee Port BurgersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port BurgersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port BurgersUITests/Pods-Coffee Port BurgersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8188DF324A5D8F2E5D32D9E0 /* Pods-Coffee Port BurgersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port BurgersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port BurgersTests/Pods-Coffee Port BurgersTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C4E8EA262291F2EF7094154 /* Pods-Coffee Port BurgersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port BurgersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port BurgersTests/Pods-Coffee Port BurgersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A9F8721F3B47380022E2A7 /* Coffee Port Burgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Port Burgers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A9F8751F3B47390022E2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5A9F8771F3B473A0022E2A7 /* BurgerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTableViewController.swift; sourceTree = "<group>"; };
+		A5A9F87A1F3B473B0022E2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A9F87C1F3B473C0022E2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A9F87F1F3B473C0022E2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A9F8811F3B473D0022E2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A9F8861F3B473E0022E2A7 /* Coffee Port BurgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee Port BurgersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A9F88A1F3B473E0022E2A7 /* Coffee_Port_BurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_Port_BurgersTests.swift; sourceTree = "<group>"; };
+		A5A9F88C1F3B473E0022E2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A9F8911F3B473E0022E2A7 /* Coffee Port BurgersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee Port BurgersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A9F8951F3B473F0022E2A7 /* Coffee_Port_BurgersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_Port_BurgersUITests.swift; sourceTree = "<group>"; };
+		A5A9F8971F3B473F0022E2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A9F8A31F3B4D790022E2A7 /* BurgerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurgerTableViewCell.swift; sourceTree = "<group>"; };
+		A5A9F8A51F3B53E80022E2A7 /* Burger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		C64453028FA125DAA84C7E6B /* Pods_Coffee_Port_BurgersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_Port_BurgersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2DF629D172EAF39ADC400 /* Pods-Coffee Port BurgersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port BurgersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port BurgersUITests/Pods-Coffee Port BurgersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9BADFFF90A9A3F5C0757213 /* Pods-Coffee Port Burgers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Port Burgers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Port Burgers/Pods-Coffee Port Burgers.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A9F86F1F3B47380022E2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D017B604B1F9BA34DB08178 /* Pods_Coffee_Port_Burgers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F8831F3B473E0022E2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF59348A4113E65F18A948A /* Pods_Coffee_Port_BurgersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F88E1F3B473E0022E2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF673A6F7AC4BAF5EC88974 /* Pods_Coffee_Port_BurgersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FB8BF877FA49267E46F1DEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AABF0110DEC3441F2151D01 /* Pods-Coffee Port Burgers.debug.xcconfig */,
+				F9BADFFF90A9A3F5C0757213 /* Pods-Coffee Port Burgers.release.xcconfig */,
+				8C4E8EA262291F2EF7094154 /* Pods-Coffee Port BurgersTests.debug.xcconfig */,
+				8188DF324A5D8F2E5D32D9E0 /* Pods-Coffee Port BurgersTests.release.xcconfig */,
+				80C9F4D1C7FD9288EFFB1A07 /* Pods-Coffee Port BurgersUITests.debug.xcconfig */,
+				EFD2DF629D172EAF39ADC400 /* Pods-Coffee Port BurgersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5A9F8691F3B47370022E2A7 = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8741F3B47380022E2A7 /* Coffee Port Burgers */,
+				A5A9F8891F3B473E0022E2A7 /* Coffee Port BurgersTests */,
+				A5A9F8941F3B473E0022E2A7 /* Coffee Port BurgersUITests */,
+				A5A9F8731F3B47380022E2A7 /* Products */,
+				9FB8BF877FA49267E46F1DEE /* Pods */,
+				B6E76BF1E6AF181DAA0B33FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A9F8731F3B47380022E2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8721F3B47380022E2A7 /* Coffee Port Burgers.app */,
+				A5A9F8861F3B473E0022E2A7 /* Coffee Port BurgersTests.xctest */,
+				A5A9F8911F3B473E0022E2A7 /* Coffee Port BurgersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A9F8741F3B47380022E2A7 /* Coffee Port Burgers */ = {
+			isa = PBXGroup;
+			children = (
+				A5B7B2CF1F3C3EDE0065256F /* Object model */,
+				A5B7B2CE1F3C3ECB0065256F /* Table view controller */,
+				A5A9F8751F3B47390022E2A7 /* AppDelegate.swift */,
+				A5A9F8791F3B473B0022E2A7 /* Main.storyboard */,
+				A5A9F87C1F3B473C0022E2A7 /* Assets.xcassets */,
+				A5A9F87E1F3B473C0022E2A7 /* LaunchScreen.storyboard */,
+				A5A9F8811F3B473D0022E2A7 /* Info.plist */,
+			);
+			path = "Coffee Port Burgers";
+			sourceTree = "<group>";
+		};
+		A5A9F8891F3B473E0022E2A7 /* Coffee Port BurgersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F88A1F3B473E0022E2A7 /* Coffee_Port_BurgersTests.swift */,
+				A5A9F88C1F3B473E0022E2A7 /* Info.plist */,
+			);
+			path = "Coffee Port BurgersTests";
+			sourceTree = "<group>";
+		};
+		A5A9F8941F3B473E0022E2A7 /* Coffee Port BurgersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8951F3B473F0022E2A7 /* Coffee_Port_BurgersUITests.swift */,
+				A5A9F8971F3B473F0022E2A7 /* Info.plist */,
+			);
+			path = "Coffee Port BurgersUITests";
+			sourceTree = "<group>";
+		};
+		A5B7B2CD1F3C3EB70065256F /* Table view cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8A31F3B4D790022E2A7 /* BurgerTableViewCell.swift */,
+			);
+			name = "Table view cell";
+			sourceTree = "<group>";
+		};
+		A5B7B2CE1F3C3ECB0065256F /* Table view controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8771F3B473A0022E2A7 /* BurgerTableViewController.swift */,
+				A5B7B2CD1F3C3EB70065256F /* Table view cell */,
+			);
+			name = "Table view controller";
+			sourceTree = "<group>";
+		};
+		A5B7B2CF1F3C3EDE0065256F /* Object model */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F8A51F3B53E80022E2A7 /* Burger.swift */,
+			);
+			name = "Object model";
+			sourceTree = "<group>";
+		};
+		B6E76BF1E6AF181DAA0B33FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2387AF9E390DB71660BD19 /* Pods_Coffee_Port_Burgers.framework */,
+				C64453028FA125DAA84C7E6B /* Pods_Coffee_Port_BurgersTests.framework */,
+				515B5BE11EF70D9DD4765594 /* Pods_Coffee_Port_BurgersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A9F8711F3B47380022E2A7 /* Coffee Port Burgers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A9F89A1F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port Burgers" */;
+			buildPhases = (
+				2177EBD09463A0C077838D64 /* [CP] Check Pods Manifest.lock */,
+				A5A9F86E1F3B47380022E2A7 /* Sources */,
+				A5A9F86F1F3B47380022E2A7 /* Frameworks */,
+				A5A9F8701F3B47380022E2A7 /* Resources */,
+				92D4A413AC6B7F8844ACB4E2 /* [CP] Embed Pods Frameworks */,
+				BE671D1C646BF0FC4BC9C831 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee Port Burgers";
+			productName = "Coffee Port Burgers";
+			productReference = A5A9F8721F3B47380022E2A7 /* Coffee Port Burgers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A9F8851F3B473E0022E2A7 /* Coffee Port BurgersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A9F89D1F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port BurgersTests" */;
+			buildPhases = (
+				E9990E216D621C7D7A137F22 /* [CP] Check Pods Manifest.lock */,
+				A5A9F8821F3B473E0022E2A7 /* Sources */,
+				A5A9F8831F3B473E0022E2A7 /* Frameworks */,
+				A5A9F8841F3B473E0022E2A7 /* Resources */,
+				849F386BDBDC23488B25A6AC /* [CP] Embed Pods Frameworks */,
+				EF43CFB85DFCEB839C3D7F7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A9F8881F3B473E0022E2A7 /* PBXTargetDependency */,
+			);
+			name = "Coffee Port BurgersTests";
+			productName = "Coffee Port BurgersTests";
+			productReference = A5A9F8861F3B473E0022E2A7 /* Coffee Port BurgersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A9F8901F3B473E0022E2A7 /* Coffee Port BurgersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A9F8A01F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port BurgersUITests" */;
+			buildPhases = (
+				FBE16F1437185724D68AB702 /* [CP] Check Pods Manifest.lock */,
+				A5A9F88D1F3B473E0022E2A7 /* Sources */,
+				A5A9F88E1F3B473E0022E2A7 /* Frameworks */,
+				A5A9F88F1F3B473E0022E2A7 /* Resources */,
+				96DB858888B5C07806A9BFBB /* [CP] Embed Pods Frameworks */,
+				2795A5226333FDBE12F1F942 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A9F8931F3B473E0022E2A7 /* PBXTargetDependency */,
+			);
+			name = "Coffee Port BurgersUITests";
+			productName = "Coffee Port BurgersUITests";
+			productReference = A5A9F8911F3B473E0022E2A7 /* Coffee Port BurgersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A9F86A1F3B47380022E2A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nattr;
+				TargetAttributes = {
+					A5A9F8711F3B47380022E2A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6M28YL788X;
+						ProvisioningStyle = Automatic;
+					};
+					A5A9F8851F3B473E0022E2A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5A9F8711F3B47380022E2A7;
+					};
+					A5A9F8901F3B473E0022E2A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5A9F8711F3B47380022E2A7;
+					};
+				};
+			};
+			buildConfigurationList = A5A9F86D1F3B47380022E2A7 /* Build configuration list for PBXProject "Coffee Port Burgers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A9F8691F3B47370022E2A7;
+			productRefGroup = A5A9F8731F3B47380022E2A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A9F8711F3B47380022E2A7 /* Coffee Port Burgers */,
+				A5A9F8851F3B473E0022E2A7 /* Coffee Port BurgersTests */,
+				A5A9F8901F3B473E0022E2A7 /* Coffee Port BurgersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A9F8701F3B47380022E2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A9F8801F3B473C0022E2A7 /* LaunchScreen.storyboard in Resources */,
+				A5A9F87D1F3B473C0022E2A7 /* Assets.xcassets in Resources */,
+				A5A9F87B1F3B473B0022E2A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F8841F3B473E0022E2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F88F1F3B473E0022E2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2177EBD09463A0C077838D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2795A5226333FDBE12F1F942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port BurgersUITests/Pods-Coffee Port BurgersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849F386BDBDC23488B25A6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port BurgersTests/Pods-Coffee Port BurgersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D4A413AC6B7F8844ACB4E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port Burgers/Pods-Coffee Port Burgers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DB858888B5C07806A9BFBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port BurgersUITests/Pods-Coffee Port BurgersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE671D1C646BF0FC4BC9C831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port Burgers/Pods-Coffee Port Burgers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9990E216D621C7D7A137F22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF43CFB85DFCEB839C3D7F7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Port BurgersTests/Pods-Coffee Port BurgersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE16F1437185724D68AB702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A9F86E1F3B47380022E2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A9F8781F3B473A0022E2A7 /* BurgerTableViewController.swift in Sources */,
+				A5A9F8A41F3B4D790022E2A7 /* BurgerTableViewCell.swift in Sources */,
+				A5A9F8A61F3B53E80022E2A7 /* Burger.swift in Sources */,
+				A5A9F8761F3B47390022E2A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F8821F3B473E0022E2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A9F88B1F3B473E0022E2A7 /* Coffee_Port_BurgersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A9F88D1F3B473E0022E2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A9F8961F3B473F0022E2A7 /* Coffee_Port_BurgersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A9F8881F3B473E0022E2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A9F8711F3B47380022E2A7 /* Coffee Port Burgers */;
+			targetProxy = A5A9F8871F3B473E0022E2A7 /* PBXContainerItemProxy */;
+		};
+		A5A9F8931F3B473E0022E2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A9F8711F3B47380022E2A7 /* Coffee Port Burgers */;
+			targetProxy = A5A9F8921F3B473E0022E2A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5A9F8791F3B473B0022E2A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A9F87A1F3B473B0022E2A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A9F87E1F3B473C0022E2A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A9F87F1F3B473C0022E2A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A9F8981F3B473F0022E2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A9F8991F3B473F0022E2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A9F89B1F3B473F0022E2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AABF0110DEC3441F2151D01 /* Pods-Coffee Port Burgers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M28YL788X;
+				INFOPLIST_FILE = "Coffee Port Burgers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5A9F89C1F3B473F0022E2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BADFFF90A9A3F5C0757213 /* Pods-Coffee Port Burgers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M28YL788X;
+				INFOPLIST_FILE = "Coffee Port Burgers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5A9F89E1F3B473F0022E2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4E8EA262291F2EF7094154 /* Pods-Coffee Port BurgersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coffee Port BurgersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Port Burgers.app/Coffee Port Burgers";
+			};
+			name = Debug;
+		};
+		A5A9F89F1F3B473F0022E2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8188DF324A5D8F2E5D32D9E0 /* Pods-Coffee Port BurgersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coffee Port BurgersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Port Burgers.app/Coffee Port Burgers";
+			};
+			name = Release;
+		};
+		A5A9F8A11F3B473F0022E2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C9F4D1C7FD9288EFFB1A07 /* Pods-Coffee Port BurgersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Coffee Port BurgersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-BurgersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coffee Port Burgers";
+			};
+			name = Debug;
+		};
+		A5A9F8A21F3B473F0022E2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD2DF629D172EAF39ADC400 /* Pods-Coffee Port BurgersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Coffee Port BurgersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nattr.Coffee-Port-BurgersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coffee Port Burgers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A9F86D1F3B47380022E2A7 /* Build configuration list for PBXProject "Coffee Port Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A9F8981F3B473F0022E2A7 /* Debug */,
+				A5A9F8991F3B473F0022E2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A9F89A1F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A9F89B1F3B473F0022E2A7 /* Debug */,
+				A5A9F89C1F3B473F0022E2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A9F89D1F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port BurgersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A9F89E1F3B473F0022E2A7 /* Debug */,
+				A5A9F89F1F3B473F0022E2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A9F8A01F3B473F0022E2A7 /* Build configuration list for PBXNativeTarget "Coffee Port BurgersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A9F8A11F3B473F0022E2A7 /* Debug */,
+				A5A9F8A21F3B473F0022E2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A9F86A1F3B47380022E2A7 /* Project object */;
+}

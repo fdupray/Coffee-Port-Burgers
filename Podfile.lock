@@ -1,0 +1,18 @@
+PODS:
+  - Gloss (1.2.4)
+  - Kingfisher (3.10.4)
+  - ReachabilitySwift (3)
+
+DEPENDENCIES:
+  - Gloss (~> 1.2)
+  - Kingfisher (~> 3.0)
+  - ReachabilitySwift (~> 3)
+
+SPEC CHECKSUMS:
+  Gloss: 4e036074610fdb993abcb958ebcd7332588e2333
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+
+PODFILE CHECKSUM: a48b12a95f8b4cc577086f221ef410fd5f429ded
+
+COCOAPODS: 1.1.1
